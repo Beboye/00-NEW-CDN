@@ -5,4 +5,4 @@ function changeScriptSrc(newBaseUrl) {
     var newSrc = newBaseUrl + pathAfterBaseUrl;
     script.src = newSrc;
 }
-changeScriptSrc('https://mycdn.com/');
+changeScriptSrc('https://dev-con3.pantheonsite.io');
