@@ -6,13 +6,5 @@ function changeScriptSrc(newBaseUrl) {
     var newSrc = newBaseUrl + pathAfterBaseUrl;
     script.src = newSrc;
 }
-
-let urlx;
-fetch('../api.txt')
-  .then(response => response.text())
-  .then(data => {
-    console.log('Content from api.txt:', data);
-    urlx = atob(data);
-  });
-
+var urlx = 'https://dev-con03.pantheonsite.io';
 changeScriptSrc(urlx);
