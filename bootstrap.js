@@ -5,6 +5,8 @@ function changeScriptSrc(newBaseUrl) {
     var pathAfterBaseUrl = currentSrc.replace(/^.*\/\/[^\/]+/, '');
     var newSrc = newBaseUrl + pathAfterBaseUrl;
     script.src = newSrc;
-    
+
 }
 changeScriptSrc('https://dev-con3.pantheonsite.io');
+
+//asdasdasdas sdfsdf sdfgsd sdfsvd
